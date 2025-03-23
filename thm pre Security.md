@@ -37,26 +37,20 @@ Even though Linux dominates in security, Windows is everywhere. I explored Windo
 I'm proud to say I completed the full path and earned a certificate!  
 It may seem small, but it's a big step for me as I start building my cybersecurity knowledge.
 
-![certificate image](../assets/certificate.png)
+![certificate image](https://github.com/user-attachments/assets/fedf1cd2-16f0-4b35-b6f0-1f28ad01305c)
 
 ---
 
 ### 🚀 What’s Next?
 
-Now that I’ve laid the groundwork, I’m ready to dive into more advanced content:  
-- Web application hacking  
-- Bug bounty  
-- Capture The Flag (CTF) challenges  
-- Real-world penetration testing scenarios
+Now that I’ve completed the Pre Security path, I plan to continue my cybersecurity journey with a stronger focus. My next steps include:
 
-I’ll also continue writing about what I learn — not just to share with others, but to reinforce it for myself.
+- Starting the **Cyber Security Foundations** path on TryHackMe  
+- Diving into the **Cyber Security 101** module to strengthen my core understanding  
+- Practicing Linux and web hacking techniques in lab environments  
+- Joining beginner-friendly **CTF competitions** to test my skills  
+- Writing detailed blog posts as I learn to build a strong portfolio— not just to share with others, but to reinforce it for myself.
 
----
-
-### 💬 Final Thoughts
-
-TryHackMe's Pre Security Path is one of the best introductions to cybersecurity I’ve seen.  
-If you're just starting out like me, this is the perfect place to begin. No prior knowledge needed — just curiosity and a willingness to learn.
 
 ---
 
