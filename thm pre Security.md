@@ -57,7 +57,7 @@ Now that I’ve completed the Pre Security path, I plan to continue my cybersecu
 ### 🔗 Links
 
 - TryHackMe Pre Security Path: [https://tryhackme.com/path/outline/presecurity](https://tryhackme.com/path/outline/presecurity)  
-- My TryHackMe profile: [https://tryhackme.com/p/hackkim](https://tryhackme.com/p/hackkim)
+- My TryHackMe profile: [https://tryhackme.com/p/hackkim](https://tryhackme.com/p/kimsunghoon)
 
 
 
