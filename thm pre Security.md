@@ -11,23 +11,23 @@ This learning path focuses on building the foundational technical knowledge requ
 ### 📚 What I Learned
 
 #### 🔹 1. Introduction to Cyber Security  
-![Intro](../assets/introduction_to_cybersecurity.png)  
+![Intro](https://github.com/user-attachments/assets/ff2340ac-ddb5-497b-adae-572ab16d62a2)  
 I learned the difference between offensive and defensive security and got a broad overview of the roles and career paths in the field.
 
 #### 🔹 2. Network Fundamentals  
-![Network](../assets/network_fundamentals.png)  
+![Network](https://github.com/user-attachments/assets/1dd6b224-a57e-4e1d-9748-e0d83877caf5)  
 This section covered the core concepts of how networks operate — including IP addresses, ports, protocols, and common vulnerabilities.
 
 #### 🔹 3. How the Web Works  
-![Web](../assets/how_the_web_works.png)  
+![Web](https://github.com/user-attachments/assets/b1e40c48-83b4-4466-90dd-a4f0f7eb59a9)  
 Understanding how the internet functions (DNS, HTTP, servers, browsers) is key to mastering web hacking and defense.
 
 #### 🔹 4. Linux Fundamentals  
-![Linux](../assets/linux_fundamentals.png)  
+![Linux](https://github.com/user-attachments/assets/33dab636-e490-473b-86dc-24e29ad607b4)  
 Linux is essential in cybersecurity. I practiced terminal commands, file permissions, user management, and the basics of navigating a Linux environment.
 
 #### 🔹 5. Windows Fundamentals  
-![Windows](../assets/windows_fundamentals.png)  
+![Windows](https://github.com/user-attachments/assets/60c363fc-62ed-4ab3-8303-f05d96f366b2)  
 Even though Linux dominates in security, Windows is everywhere. I explored Windows security features and learned how attackers exploit weaknesses in the OS.
 
 ---
