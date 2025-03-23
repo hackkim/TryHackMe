@@ -4,7 +4,7 @@ I recently completed the **Pre Security Path** on TryHackMe — an excellent sta
 
 This learning path focuses on building the foundational technical knowledge required to understand and explore the world of cyber attacks and defenses. It’s beginner-friendly, hands-on, and structured in a way that makes learning genuinely enjoyable.
 
-![Pre Security Banner]("https://github.com/user-attachments/assets/62ea492c-ed64-467f-9f24-f2c4c5dcc644")
+![Pre Security Banner](https://github.com/user-attachments/assets/62ea492c-ed64-467f-9f24-f2c4c5dcc644)
 
 ---
 
