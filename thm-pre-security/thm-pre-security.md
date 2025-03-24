@@ -1,52 +1,60 @@
-# Introduction to Cyber Security
+# 🛡️ TryHackMe Pre Security Path: My First Step into Cybersecurity
 
-This post covers the "Introduction to Cyber Security" module from TryHackMe's Pre Security path.
-I broke it down into three major sections to better understand and reflect on what I learned:
+I recently completed the **Pre Security Path** on TryHackMe — an excellent starting point for anyone interested in cybersecurity.
 
----
+This learning path focuses on building the foundational technical knowledge required to understand and explore the world of cyber attacks and defenses. It’s beginner-friendly, hands-on, and structured in a way that makes learning genuinely enjoyable.
 
-## 🧑‍💻 Careers in Cyber
-Learned about the different job roles available in cybersecurity:
-
-- **SOC Analyst** – First line of defense, monitoring and responding to alerts
-- **Penetration Tester** – Finds vulnerabilities in systems by simulating attacks
-- **Security Engineer** – Builds and maintains security systems
-- **Incident Responder** – Reacts quickly to cyberattacks and investigates what happened
-
-> 📝 I enjoyed seeing the variety of paths — it helped me think about where I might fit.
-
-![Careers in Cyber](./images/intro-careers.png)
+![Pre Security Banner](https://github.com/user-attachments/assets/62ea492c-ed64-467f-9f24-f2c4c5dcc644)
 
 ---
 
-## 🗡️ Offensive Security Intro
-This part gave me a beginner-friendly introduction to "ethical hacking." I practiced:
+### 📚 What I Learned
 
-- Using a web hacking lab to explore basic vulnerabilities
-- Thinking like an attacker to understand weaknesses
-- The importance of **legality** and **permission** in hacking!
+#### 🔹 1. Introduction to Cyber Security  
+![Intro](https://github.com/user-attachments/assets/ff2340ac-ddb5-497b-adae-572ab16d62a2)  
+I learned the difference between offensive and defensive security and got a broad overview of the roles and career paths in the field.
 
-> 💡 This was exciting — my first taste of hacking in a legal environment.
+#### 🔹 2. Network Fundamentals  
+![Network](https://github.com/user-attachments/assets/1dd6b224-a57e-4e1d-9748-e0d83877caf5)  
+This section covered the core concepts of how networks operate — including IP addresses, ports, protocols, and common vulnerabilities.
 
-![Offensive Security](./images/offensive-security.png)
+#### 🔹 3. How the Web Works  
+![Web](https://github.com/user-attachments/assets/b1e40c48-83b4-4466-90dd-a4f0f7eb59a9)  
+Understanding how the internet functions (DNS, HTTP, servers, browsers) is key to mastering web hacking and defense.
 
----
+#### 🔹 4. Linux Fundamentals  
+![Linux](https://github.com/user-attachments/assets/33dab636-e490-473b-86dc-24e29ad607b4)  
+Linux is essential in cybersecurity. I practiced terminal commands, file permissions, user management, and the basics of navigating a Linux environment.
 
-## 🛡️ Defensive Security Intro
-Here I learned how defenders protect systems from threats.
-Covered topics included:
-
-- **Threat Intelligence** – Knowing what attackers are doing
-- **SIEM** – Collecting and analyzing logs
-- **SOC** – The team that responds to security events
-- **Malware Analysis** – Understanding how malicious files behave
-
-> 🔍 This part really helped me understand the importance of visibility and monitoring.
-
-![Defensive Security](./images/defensive-security.png)
+#### 🔹 5. Windows Fundamentals  
+![Windows](https://github.com/user-attachments/assets/60c363fc-62ed-4ab3-8303-f05d96f366b2)  
+Even though Linux dominates in security, Windows is everywhere. I explored Windows security features and learned how attackers exploit weaknesses in the OS.
 
 ---
 
-## ✅ Summary
-This module gave me a solid overview of what cybersecurity is all about — both the offensive and defensive sides. It also helped me discover which roles interest me the most.
+### 🎓 Certificate
 
+I'm proud to say I completed the full path and earned a certificate!  
+It may seem small, but it's a big step for me as I start building my cybersecurity knowledge.
+
+![certificate image](https://github.com/user-attachments/assets/fedf1cd2-16f0-4b35-b6f0-1f28ad01305c)
+
+---
+
+### 🚀 What’s Next?
+
+Now that I’ve completed the Pre Security path, I plan to continue my cybersecurity journey with a stronger focus. My next steps include:
+
+- Starting the **Cyber Security Foundations** path on TryHackMe  
+- Diving into the **Cyber Security 101** module to strengthen my core understanding  
+- Practicing Linux and web hacking techniques in lab environments  
+- Joining beginner-friendly **CTF competitions** to test my skills  
+- Writing detailed blog posts as I learn to build a strong portfolio— not just to share with others, but to reinforce it for myself.
+
+
+---
+
+### 🔗 Links
+
+- TryHackMe Pre Security Path: [https://tryhackme.com/path/outline/presecurity](https://tryhackme.com/path/outline/presecurity)  
+- My TryHackMe profile: [https://tryhackme.com/p/hackkim](https://tryhackme.com/p/kimsunghoon)
