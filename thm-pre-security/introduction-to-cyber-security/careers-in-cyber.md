@@ -13,7 +13,7 @@ Cyber security careers are in increasingly high demand and offer competitive sal
 ---
 
 ## Task 2: Security Analyst
-
+![Security Analyst](https://github.com/user-attachments/assets/99760be1-4b79-4aab-b977-bd3a0d3874a1)
 Security analysts play a vital role in building security measures across an organization to protect against attacks. They explore and assess the company’s networks to provide engineers with actionable data and recommendations. This role requires collaboration with multiple stakeholders to understand security needs and environments.
 
 ### Responsibilities
@@ -37,7 +37,7 @@ Through TryHackMe’s learning paths, you can gain the essential foundational kn
 ---
 
 ## Task 3: Security Engineer
-
+![Security Engineer](https://github.com/user-attachments/assets/604bbc8a-a688-4972-9165-e208100bd7ed)
 Security engineers use threat and vulnerability data to develop and implement security solutions, often provided by other security team members. They bypass a wide range of attacks including web application attacks, network threats, and evolving tactics and strategies. Their ultimate goal is to adopt and maintain measures to mitigate attack and data loss risks.
 
 ### Responsibilities
@@ -60,7 +60,7 @@ Security engineers use threat and vulnerability data to develop and implement se
 ---
 
 ## Task 4: Incident Responder
-
+![Incident Responder](https://github.com/user-attachments/assets/ce55038a-a775-4ad1-b3a5-9da40cb55e88)
 Incident responders handle security breaches efficiently and productively. Their responsibilities include creating plans, policies, and protocols that are enforced during and after a cyber incident. This role requires real-time assessment and action under high pressure. Key metrics include MTTD (Mean Time to Detect), MTTA (Mean Time to Acknowledge), and MTTR (Mean Time to Respond), all of which help mitigate the impact of attacks.
 
 ### Responsibilities
@@ -74,6 +74,7 @@ Incident responders handle security breaches efficiently and productively. Their
 ---
 
 ## Task 5: Digital Forensics Investigator
+![Digital Forensics Investigator](https://github.com/user-attachments/assets/2e6f58a4-1019-4e78-907f-741ecd91432e)
 
 If you enjoy being a detective, this role may be perfect for you. Working in law enforcement, you'll collect and analyze evidence to help solve crimes—bringing the guilty to justice and clearing the innocent. In a corporate setting, you'll analyze incidents like policy violations using forensic techniques.
 
@@ -85,7 +86,7 @@ If you enjoy being a detective, this role may be perfect for you. Working in law
 ---
 
 ## Task 6: Malware Analyst
-
+![Malware Analyst](https://github.com/user-attachments/assets/a55b33c2-c243-4bcf-bc3b-120d0fdd0604)
 A malware analyst investigates suspicious programs to discover their functions and document findings. Also known as a reverse-engineer, they convert compiled machine code into readable formats, often in low-level languages. This role requires a solid background in low-level programming, especially in assembly and C.
 
 ### Responsibilities
@@ -96,7 +97,7 @@ A malware analyst investigates suspicious programs to discover their functions a
 ---
 
 ## Task 7: Penetration Tester
-
+![Penetration Tester](https://github.com/user-attachments/assets/25382fc7-d883-4c54-8e84-f54e3a4363c0)
 Penetration testing (or pentesting/ethical hacking) involves testing system and software security by simulating cyberattacks. Testers identify and exploit vulnerabilities to assess risks, enabling organizations to fix flaws before real attacks occur.
 
 ### Responsibilities
@@ -117,7 +118,7 @@ Penetration testing (or pentesting/ethical hacking) involves testing system and 
 ---
 
 ## Task 8: Red Teamer
-
+![Red Teamer](https://github.com/user-attachments/assets/470b5c08-476b-438d-af5d-8223360eafd4)
 Red teamers share similarities with penetration testers but focus on simulating real-world attack scenarios to test detection and response. Their tasks include mimicking threat actors, evading detection, and retaining access. Red teaming assessments often run for weeks and are typically conducted by external experts for mature security programs.
 
 ### Responsibilities
