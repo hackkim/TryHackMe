@@ -27,7 +27,6 @@ The teams responsible for this are known as **Blue Teams**.
 - **Asset Management** – Keeping track of all systems and devices that require protection.
 - **Patching Systems** – Regularly updating software and hardware to eliminate vulnerabilities.
 - **Firewalls & IPS** – Controlling traffic and blocking known threats using firewalls and Intrusion Prevention Systems.
-![Firewall and Network Filtering](https://github.com/user-attachments/assets/7069acf2-50c7-419f-9d1b-14458aca0ba9)
 - **Logging & Monitoring** – Setting up logging systems to detect unusual or malicious activity, such as unauthorized devices joining the network.
 
 > Defensive security doesn’t stop there — it also includes deep analysis and response capabilities like SOC, Threat Intelligence, DFIR, and Malware Analysis.
@@ -117,6 +116,8 @@ Malware = Malicious + Software. Common types include:
 - **Virus** – Self-replicating code that corrupts systems.
 - **Trojan Horse** – Disguised as legitimate software with hidden malicious behavior.
 - **Ransomware** – Encrypts files and demands ransom for decryption.
+
+![Firewall and Network Filtering](https://github.com/user-attachments/assets/7069acf2-50c7-419f-9d1b-14458aca0ba9)
 
 #### Malware Analysis Techniques:
 
