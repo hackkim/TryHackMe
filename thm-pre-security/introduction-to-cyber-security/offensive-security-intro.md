@@ -74,7 +74,34 @@ Run the following command in the terminal to begin scanning the FakeBank website
 
 ```bash
 gobuster dir -u http://fakebank.thm -w wordlist.txt
+```
+The command will run and show you an output similar to this:
 
+![image](https://github.com/user-attachments/assets/cc5b78de-a202-429a-8a92-a32deef6d5a3)
+
+#### 🔍 Command Breakdown
+
+| Option | Description |
+|--------|-------------|
+| `dir`  | Directory brute-force mode |
+| `-u`   | Target website URL |
+| `-w`   | Wordlist to use for scanning |
+
+You will see that Gobuster scans the website with each word in the list, finding pages that exist on the site. Gobuster will have told you the pages in the list of page/directory names (indicated by Status: 200).
+
+![image](https://github.com/user-attachments/assets/8858b805-7420-49df-9912-d541c56f2f2c)
+
+### 💸 Step 3. Hack The Bank
+
+You should have found a secret bank transfer page that allows you to transfer money between bank accounts (`/bank-transfer`). Type the hidden page into the FakeBank website using the browser's address bar.
+
+![image](https://github.com/user-attachments/assets/c1397250-584b-43f9-a8a2-1c0178402a6e)
+
+From this page, an attacker has authorized access and can steal money from any bank account. As an ethical hacker, you would (with permission) find vulnerabilities in their application and report them to the bank to fix them before a hacker exploits them.
+
+Your mission is to transfer $2000 from bank account 2276 to your account (account number 8881). If your transfer was successful, you should now be able to see your new balance reflected on your account page.
+
+Go there now and confirm you got the money! (You may need to hit Refresh for the changes to appear)
 
 ## 🚀 Task 3: Careers in Cyber Security
 
@@ -117,3 +144,17 @@ Cyber security offers many career paths. Here are three key roles in **offensive
   Designs, monitors, and maintains security systems to protect against attacks.
 
 > Want to learn more? Check out the [Cyber Careers Room](https://tryhackme.com/room/cybercareers).
+
+---
+
+## ✅ Summary
+
+In this lab, you:
+
+- Learned what offensive security is
+- Used Gobuster to discover hidden pages
+- Found and accessed an insecure bank transfer page
+- Explored how ethical hackers think
+- Discovered career paths in cybersecurity
+
+🎯 Keep practicing, stay curious, and hack ethically!
