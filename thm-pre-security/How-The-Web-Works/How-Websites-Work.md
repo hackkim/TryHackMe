@@ -135,14 +135,18 @@ Input like this:
 ```html
 <h1>Hacked!</h1>
 ```
-...would be displayed as real HTML.
+...and the site displays it as-is, the attacker controls part of the page.
 
-🛡️ **Prevent by sanitizing all user input!**
+### 🛡️ How to Prevent:
+- Always sanitize user input before rendering it
+- Strip or encode HTML tags (`<`, `>`, etc.)
+- Use frameworks that auto-sanitize (React, Vue, etc.)
 
 ---
 
 ## ✅ Summary
 
-- HTML defines structure, JS adds behavior
-- Source code can contain sensitive data
-- Unfiltered input can lead to HTML injection
+- Websites use a client-server model: your browser (client) makes a request, and the server responds with HTML, CSS, JS, etc.
+- HTML defines the layout; JavaScript powers interactions.
+- Sensitive data should never appear in source code.
+- Unsanitized input can lead to HTML Injection attacks.
