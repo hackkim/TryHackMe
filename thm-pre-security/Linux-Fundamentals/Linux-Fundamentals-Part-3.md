@@ -98,28 +98,67 @@ fg
 ```
 
 ### 🖼️ Image  
-![fg command](https://github.com/user-attachments/assets/ca6e8082-ad22-4993-bbbd-f220520582b7)
+![fg command](https://github.com/user-attachments/assets/8c8fcddd-f70f-456c-826e-8569cbdaf293)
 
 ### 🖼️ Image  
-![script resumed](https://github.com/user-attachments/assets/8c8fcddd-f70f-456c-826e-8569cbdaf293)
+![script resumed](https://github.com/user-attachments/assets/ca6e8082-ad22-4993-bbbd-f220520582b7)
+
+---
+## 🔁 Task 6: Maintaining Your System: Automation
+
+Users may want to schedule certain tasks after the system boots — like running backup scripts or launching apps automatically.
+
+We're going to focus on the **cron** process, specifically how to manage it with **crontab**. Crontab files are executed line by line based on time specifications.
+
+### 🖼️ Image  
+![crontab nano opened](https://github.com/user-attachments/assets/c873ced6-d7aa-46f0-a430-fa1542d2c2d8)
 
 ---
 
-## 🔁 Task 6: Automation with Crontabs
+### 🧩 Crontab Format
 
-To edit crontab:
+A crontab entry follows this structure:
+
+| Value | Description |
+|-------|-------------|
+| MIN   | Minute to execute at |
+| HOUR  | Hour to execute at |
+| DOM   | Day of the month |
+| MON   | Month of the year |
+| DOW   | Day of the week |
+| CMD   | Command to run |
+
+---
+
+### 📁 Example
+
+To backup a directory every 12 hours:
+
+```cron
+0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/
+```
+
+You can use asterisks `*` as wildcards.
+
+Helpful tools:
+- [Crontab Generator](https://crontab-generator.org)
+- [Cron Guru](https://crontab.guru)
+
+---
+
+### 🖼️ Image  
+![Cronjob result preview](https://github.com/user-attachments/assets/32514378-01a0-4ff3-84e1-19de807b889d)
+
+---
+
+You can edit your crontab with:
+
 ```bash
 crontab -e
 ```
 
 ### 🖼️ Image  
-![crontab editor](./스크린샷 2025-03-30 오후 12.00.38.png)
-
-### 🖼️ Image  
-![crontab generator](./스크린샷 2025-03-30 오후 12.00.06.png)
-
-### 🖼️ Image  
-![crontab entry](./스크린샷 2025-03-30 오후 12.00.11.png)
+![Crontab with backup line](https://github.com/user-attachments/assets/8464a8df-48a7-4210-a679-df36457b1e7a)
 
 ---
 
@@ -131,11 +170,11 @@ ls /etc/apt
 ```
 
 ### 🖼️ Image  
-![APT Directory](./스크린샷 2025-03-30 오후 12.00.20.png)
+![APT Directory](https://github.com/user-attachments/assets/966eab83-cc22-418a-93a3-82ed8a108a34)
 
 ### sources.list Contents
 ### 🖼️ Image  
-![APT sources list](./스크린샷 2025-03-30 오후 12.00.26.png)
+![APT sources list](https://github.com/user-attachments/assets/f04a9493-feeb-4464-a465-c3f9019cda9b)
 
 ### Add a Community Repo
 ```bash
@@ -144,21 +183,21 @@ nano sublime-text.list
 ```
 
 ### 🖼️ Image  
-![APT .list entry](./스크린샷 2025-03-30 오후 12.00.32.png)
+![APT .list entry](https://github.com/user-attachments/assets/079dbbf3-4f7d-4015-aacd-a95904f4cc8b)
 
 ### 🖼️ Image  
-![Sublime APT entry](./스크린샷 2025-03-30 오후 12.00.38.png)
+![Sublime APT entry](https://github.com/user-attachments/assets/02e46c06-2482-4f08-993a-ad62c52f47c2)
 
 ---
 
 ## 📄 Task 8: Logging & Monitoring
 
 ### 🖼️ Image  
-![Log directories](./스크린샷 2025-03-30 오후 12.00.46.png)
+![Log directories](https://github.com/user-attachments/assets/83032427-e8ef-4874-9aa4-8535826260b6)
 
 ### Apache Logs
 ### 🖼️ Image  
-![Apache access/error logs](./스크린샷 2025-03-30 오후 12.00.52.png)
+![Apache access/error logs](https://github.com/user-attachments/assets/deb0d1a6-e89d-4a0a-840f-f1c2f96984e2)
 
 ---
 
