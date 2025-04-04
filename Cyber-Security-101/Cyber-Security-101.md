@@ -47,15 +47,15 @@ Understand the OSI model, TCP/IP, protocols like HTTP, DNS, and tools like Wires
 
 ### 🔐 Cryptography
 Covers encryption basics: symmetric/asymmetric encryption, hashing, and real-world use cases.  
-![Cryptography](./images/screenshot_cryptography.png)
+![Cryptography](https://github.com/user-attachments/assets/3e95138f-8395-435b-ade8-38d97066c112)
 
 ### 💥 Exploitation Basics
 Discover how vulnerabilities are exploited, introduction to Metasploit.  
-![Exploitation](https://github.com/user-attachments/assets/3e95138f-8395-435b-ade8-38d97066c112)
+![Exploitation](https://github.com/user-attachments/assets/37d65ed2-f6ff-4b9a-9d56-4b6a7efc79b8)
 
 ### 🌐 Web Hacking
 Web security, OWASP Top 10, SQLi, XSS, and tools like Burp Suite.  
-![Web Hacking](https://github.com/user-attachments/assets/37d65ed2-f6ff-4b9a-9d56-4b6a7efc79b8)
+![Web Hacking](https://github.com/user-attachments/assets/d99ba85c-41f8-4964-b4bc-e9e71c973862)
 
 ### 🧨 Offensive Security Tooling
 Hands-on with tools like Hydra, Gobuster, and SQLMap.  
