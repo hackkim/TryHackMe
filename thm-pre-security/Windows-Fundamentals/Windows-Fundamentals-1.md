@@ -469,7 +469,3 @@ Future topics will include:
 - 🔗 [User Account Control](https://learn.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/user-account-control)
 - 🔗 [Task Manager Guide](https://www.howtogeek.com/school/using-windows-admin-tools-like-a-pro/lesson2/)
 - 🔗 [Alternate Data Streams (MalwareBytes)](https://www.malwarebytes.com/blog/news/2015/02/alternate-data-streams)
-
----
-
-> ✅ Save this file as `README.md` and include an `/images` folder for screenshots.
