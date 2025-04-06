@@ -181,7 +181,7 @@ Ensure each department has the correct users.
 Let’s **delegate password reset permissions** to Phillip (IT Support) for the `Sales OU`.
 
 📌 Delegate Control  
-![Delegate OU](https://github.com/user-attachments/assets/10493208-a771-4db3-9a72-7cb13de4ecdf)
+![Delegate OU](https://github.com/user-attachments/assets/12ad8a77-3f68-4547-a153-5525510e26e4)
 
 ---
 
@@ -202,7 +202,7 @@ Let’s **delegate password reset permissions** to Phillip (IT Support) for the 
 Login as Phillip:
 
 📌 Phillip's Credentials  
-![Phillip Login](./images/screenshot_ad_phillip_creds.png)
+![Phillip Login](https://github.com/user-attachments/assets/a2e21e9a-a28a-4a61-9541-6a0435c7d40b)
 
 - **Username**: `THM\phillip`  
 - **Password**: `Claire2008`
