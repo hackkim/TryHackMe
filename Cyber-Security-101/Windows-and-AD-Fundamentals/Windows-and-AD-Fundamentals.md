@@ -14,7 +14,7 @@ This series introduces essential Windows features used in both daily operations 
 
 ### ✅ Windows Fundamentals 1
 - Covers Desktop UI, NTFS, Control Panel, Task Manager, and more.
-- 📎 [View Summary](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/windows/windows-fundamentals-1.md)
+- 📎 [View Summary](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/Windows-Fundamentals/Windows-Fundamentals-1.md)
 
 📌 Visual Preview  
 ![Windows Fundamentals 1](https://github.com/user-attachments/assets/8f555608-f374-4689-9a27-028525fb216b)
@@ -23,7 +23,7 @@ This series introduces essential Windows features used in both daily operations 
 
 ### ✅ Windows Fundamentals 2
 - Covers MSConfig, Services, UAC, Registry, and monitoring tools.
-- 📎 [View Summary](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/windows/windows-fundamentals-2.md)
+- 📎 [View Summary](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/Windows-Fundamentals/Windows-Fundamentals-2.md)
 
 📌 Visual Preview  
 ![Windows Fundamentals 2](https://github.com/user-attachments/assets/3867bb17-8c98-4151-a4d5-f2c632b261e7)
@@ -32,7 +32,7 @@ This series introduces essential Windows features used in both daily operations 
 
 ### ✅ Windows Fundamentals 3
 - Focuses on built-in security tools: Defender, Firewall, BitLocker, TPM.
-- 📎 [View Summary](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/windows/windows-fundamentals-3.md)
+- 📎 [View Summary](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/Windows-Fundamentals/Windows-Fundamentals-3.md)
 
 📌 Visual Preview  
 ![Windows Fundamentals 3](https://github.com/user-attachments/assets/0d627b07-3ab8-476c-962c-29ec72cd4806)
