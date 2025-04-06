@@ -1,4 +1,6 @@
-## 🧭 Task 1 - Introduction
+## 🪟 TryHackMe - Active Directory Basics
+---
+### 🧭 Task 1 - Introduction
 
 Active Directory (AD) is Microsoft's directory service that is foundational in most enterprise environments.  
 It simplifies and centralizes the management of users, computers, resources, and security policies.
