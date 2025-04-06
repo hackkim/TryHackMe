@@ -16,7 +16,7 @@ Learn the basics of using Linux in a terminal.
 - Basic commands: `pwd`, `ls`, `cd`, `clear`, `echo`, `cat`, etc.
 - File and directory manipulation
 
-📎 [Read Part 1 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/linux/linux-fundamentals-part-1.md)
+📎 [Read Part 1 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/Linux-Fundamentals/Linux-Fundamentals-Part-1.md)
 
 📌 Image placeholder:  
 ![Linux Part 1](https://github.com/user-attachments/assets/28122c24-4402-4582-923f-ac4d0c9cc911)
@@ -32,7 +32,7 @@ Dive deeper into SSH, file permissions, and command chaining.
 - Understanding permissions: `chmod`, `chown`
 - Redirection & piping (`|`, `>`, `<`)
 
-📎 [Read Part 2 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/linux/linux-fundamentals-part-2.md)
+📎 [Read Part 2 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/Linux-Fundamentals/Linux-Fundamentals-Part-2.md)
 
 📌 Image placeholder:  
 ![Linux Part 2](https://github.com/user-attachments/assets/66960212-4146-44de-8e90-981c55a4aa86)
@@ -48,7 +48,7 @@ Apply your skills with practical tasks and real-world tools.
 - Archiving and compressing files
 - Installing packages and using common Linux utilities
 
-📎 [Read Part 3 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/linux/linux-fundamentals-part-3.md)
+📎 [Read Part 3 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/Linux-Fundamentals/Linux-Fundamentals-Part-3.md)
 
 📌 Image placeholder:  
 ![Linux Part 3](https://github.com/user-attachments/assets/97d02f17-e435-4865-a81a-7caffaab3000)
