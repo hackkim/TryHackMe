@@ -1,6 +1,6 @@
 # 🐧 TryHackMe - Linux Fundamentals
 
-
+![Linux Fundamentals Banner](https://github.com/user-attachments/assets/d34939b6-cf40-4514-b051-4bed5d30f49a)
 
 Linux is one of the most essential operating systems in cybersecurity.  
 This three-part series teaches the foundational command-line skills needed for penetration testing, system administration, and everyday CLI usage.
@@ -19,7 +19,7 @@ Learn the basics of using Linux in a terminal.
 📎 [Read Part 1 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/linux/linux-fundamentals-part-1.md)
 
 📌 Image placeholder:  
-![Linux Part 1](./images/linux_part1_preview.png)
+![Linux Part 1](https://github.com/user-attachments/assets/28122c24-4402-4582-923f-ac4d0c9cc911)
 
 ---
 
@@ -35,7 +35,7 @@ Dive deeper into SSH, file permissions, and command chaining.
 📎 [Read Part 2 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/linux/linux-fundamentals-part-2.md)
 
 📌 Image placeholder:  
-![Linux Part 2](./images/linux_part2_preview.png)
+![Linux Part 2](https://github.com/user-attachments/assets/66960212-4146-44de-8e90-981c55a4aa86)
 
 ---
 
@@ -51,7 +51,7 @@ Apply your skills with practical tasks and real-world tools.
 📎 [Read Part 3 on GitHub](https://github.com/hackkim/TryHackMe/blob/master/thm-pre-security/linux/linux-fundamentals-part-3.md)
 
 📌 Image placeholder:  
-![Linux Part 3](./images/linux_part3_preview.png)
+![Linux Part 3](https://github.com/user-attachments/assets/97d02f17-e435-4865-a81a-7caffaab3000)
 
 ---
 
