@@ -1,192 +1,102 @@
 ## 🪟 TryHackMe - Active Directory Basics
----
-### 🧭 Task 1 - Introduction
 
-Active Directory (AD) is Microsoft's directory service that is foundational in most enterprise environments.  
-It simplifies and centralizes the management of users, computers, resources, and security policies.
+> A hands-on introduction to Active Directory (AD) — the backbone of Windows enterprise environments.  
+> Learn how domains, users, groups, and permissions work inside a real-world Windows domain setup.
 
 ---
 
-### 🎯 Room Objectives
+## 📘 Task 1 - Introduction
 
-By the end of this room, you will understand:
+Microsoft's Active Directory (AD) simplifies management of devices and users in a corporate network.
 
-- What Active Directory is
-- The concept of a Windows Domain
-- Key components in an AD domain (users, machines, OUs, groups)
-- Forests, Trees, and Trust Relationships
-- How authentication and delegation work
-- Group Policy Objects (GPOs)
+### 🎯 Objectives
+- Understand what Active Directory is
+- Learn about AD Domains and Domain Controllers
+- Explore core components of AD: users, computers, groups
+- Visualize forests, trees, and trust relationships
 
----
-
-### 📌 Use Cases
-
-Active Directory is used in schools, universities, corporations, and government networks.  
-If you've ever logged into a shared school or work computer with the same credentials,  
-you’ve likely interacted with Active Directory.
+### 🧠 Prerequisites
+- Basic familiarity with Windows OS  
+  (📝 [See: Windows Fundamentals module])
 
 ---
 
-### 🔧 Room Prerequisites
-
-Before beginning, it is recommended to:
-
-- Have basic Windows OS knowledge  
-  👉 Review the **Windows Fundamentals 1–3** modules if needed.
-
----
-
-### 🧪 Lab Setup
-
-In this room, you will take the role of an IT administrator at **THM Inc.**  
-You’ll review and configure the existing domain environment: `THM.local`.
-
-- The domain controller is preconfigured.
-- You'll connect to the virtual machine via **RDP** or web browser.
-- The machine will be reused for all tasks.
-
-📌 Credentials:  
-- **Username:** `THM\Administrator`  
-- **Password:** `Password321`
-
-📌 Start the AttackBox (or use your own RDP client) before beginning.
-
-![RDP Login Example](./images/screenshot_rdp_login.png)
-
----
-
-Let’s get started by exploring what a Windows Domain really is in Task 2!
-
----
 ## 🏢 Task 2 - Windows Domains
 
-Imagine you're managing a small business with only five employees and five computers.  
-You can probably configure everything manually — log into each machine, set up users, apply local settings, etc.
+Managing 5 employees manually is fine. But what if you have 157 computers and 320 users across 4 offices?  
+You need centralized control. That’s where **Windows Domains** and **Active Directory** come in.
 
-But what happens when your company grows to **hundreds of users and devices** across multiple locations?
+### 🧩 What is a Windows Domain?
 
----
+- A **Windows Domain** is a group of computers and users managed centrally.
+- AD stores all configuration and credentials.
+- The server running AD is called a **Domain Controller (DC)**.
 
-### 🧠 The Need for a Windows Domain
-
-A **Windows Domain** centralizes identity and access management using **Active Directory (AD)**.  
-All users, machines, and policies are controlled from one place — the **Domain Controller (DC)**.
-
-📌 Domain-based network structure:  
-![Windows Domain Diagram](./images/screenshot_windows_domain_topology.png)
+📌 Example Network Domain  
+![AD Network Domain](https://github.com/user-attachments/assets/80f70bec-91c0-47ea-a385-2efa649a56f7)
 
 ---
 
-### 🎯 Key Benefits
+### ✅ Benefits of AD
 
-- **Centralized Identity Management**  
-  All user accounts and permissions are managed from a single server (DC)
+- **Centralized identity management**
+- **Policy enforcement** (security, permissions, logon settings)
 
-- **Policy Management**  
-  Set security and usage policies that apply to all or specific users/machines
+📌 RDP Login Info  
+![Credentials](https://github.com/user-attachments/assets/17f4545d-1354-43ca-a680-c7c0b9144289)
 
-- **Efficiency at Scale**  
-  Easy to onboard/offboard employees, manage passwords, or apply changes globally
-
----
-
-### 🧪 Real-World Example
-
-In many schools or companies, you receive a username and password that works on **any PC in the network**.  
-You’re authenticated against the Active Directory — not the local machine.
-
-- Password resets apply network-wide  
-- Access is controlled by policies set on the Domain Controller  
-- You can't open the control panel? That's GPO in action
+Use `THM\Administrator` to log in via RDP.
 
 ---
 
-### 🔧 Your Lab: Welcome to THM Inc.
+## 📂 Task 3 - Active Directory Overview
 
-You're the new IT admin at **THM.local**, a Windows Domain with multiple departments.
-
-To explore the AD environment:
-
-1. Start the attached TryHackMe machine
-2. Connect via browser or RDP
-
-📌 RDP Credentials:
-
-- **Username:** `THM\Administrator`  
-- **Password:** `Password321`
-
-![RDP Credentials Example](./images/screenshot_rdp_credentials.png)
-
-> ✅ Be sure to start the machine early. It will be used across all tasks.
+Active Directory organizes and stores information about **all objects** in a domain.  
+These include: users, computers, groups, printers, and more.
 
 ---
 
-Next, we’ll dive into the actual structure and objects of Active Directory in Task 3.
+### 👤 AD Objects: Users
+
+Users are **security principals** (can log in, be assigned permissions).  
+Users can be:
+- Real people (e.g., employees)
+- Services (e.g., IIS, MSSQL run under special service accounts)
 
 ---
 
-## 🧩 Task 3 - Active Directory
+### 🖥️ AD Objects: Computers
 
-The core of any Windows Domain is **Active Directory Domain Services (AD DS)**.  
-This service stores and manages information about all the "objects" on the network.
-
-Objects include:
-
-- Users
-- Machines
-- Groups
-- Printers
-- Shared folders
-- Organizational Units (OUs)
+- When a machine joins a domain, an account is created for it.
+- Machines are **security principals** just like users.
+- Format: `COMPUTERNAME$`
 
 ---
 
-### 👤 Users
+### 👥 AD Objects: Groups
 
-Users are **security principals**, meaning they can be authenticated and assigned permissions.  
-They may represent:
+Groups are used to assign permissions across many users or machines.
 
-- People (employees)
-- Services (like MSSQL, IIS)
+📌 Common Built-in Groups
 
-📌 Example: User Management  
-![AD Users](./images/screenshot_ad_users.png)
-
----
-
-### 🖥️ Machines
-
-Each domain-joined computer becomes a **machine object** in AD.  
-It has limited rights but is a security principal and can log in.
-
-- Naming convention: `COMPUTERNAME$`
-- Passwords are auto-rotated every 30 days
-
-📌 Example: OU View  
-![OU View](./images/screenshot_ad_ou_view.png)
+| Group              | Description                                                        |
+|-------------------|--------------------------------------------------------------------|
+| Domain Admins      | Full control over the domain                                       |
+| Server Operators   | Can manage DCs, but not change groups                              |
+| Backup Operators   | Can read any file (backup role)                                    |
+| Account Operators  | Can create/modify user accounts                                    |
+| Domain Users       | All standard user accounts                                         |
+| Domain Computers   | All computer accounts                                              |
+| Domain Controllers | All DCs in the domain                                              |
 
 ---
 
-### 👥 Security Groups
+### 🧭 Using "Active Directory Users and Computers"
 
-Groups are used to assign permissions to multiple users or machines at once.  
-They can be nested (group inside a group), and also include computers.
+This is the primary tool for managing AD users, groups, and OUs.
 
-📌 Example: User List  
-![AD User List](./images/screenshot_ad_user_list.png)
-
-#### 🔐 Default Security Groups
-
-| Security Group        | Description |
-|-----------------------|-------------|
-| Domain Admins         | Full control over the domain |
-| Server Operators      | Can manage DCs, not groups |
-| Backup Operators      | Can access all files for backup |
-| Account Operators     | Can manage user accounts |
-| Domain Users          | All user accounts in the domain |
-| Domain Computers      | All computers in the domain |
-| Domain Controllers    | All Domain Controllers |
+📌 Launch from Start Menu  
+![Search ADUC](https://github.com/user-attachments/assets/3704081a-7dd2-4e3d-8279-adeddf9f248b)
 
 ---
 
@@ -194,95 +104,114 @@ They can be nested (group inside a group), and also include computers.
 
 OUs are containers that help organize AD objects logically.
 
-- OUs are used to apply Group Policies
-- A user can belong to only one OU at a time
-- Users can belong to many groups
+- OUs are used to apply **Group Policies**
+- A user can belong to **only one OU** at a time
+- Users can belong to **multiple groups**
 
-📌 Example: OU Hierarchy  
-![OU Hierarchy](./images/screenshot_ad_ou_tree.png)
+📌 OU Hierarchy Example  
+![OU Hierarchy](https://github.com/user-attachments/assets/cd2ea009-38de-4d95-adcb-f6a7d5fcc39a)
 
----
-
-### 🔁 OUs vs Security Groups
-
-| Feature      | Security Groups             | Organizational Units (OUs)     |
-|--------------|------------------------------|---------------------------------|
-| Purpose      | Assign permissions           | Apply policies                  |
-| Membership   | Users can join multiple      | Users belong to one             |
-| Example Use  | Grant shared folder access   | Apply password complexity rules |
-
-> ✅ OUs = Policy Management  
-> ✅ Groups = Permission Management
+📌 Sample Users under IT OU  
+![OU Users](https://github.com/user-attachments/assets/a5d071a4-4cfc-4dd6-8e0f-4db79b6c67ee)
 
 ---
 
-Now that you understand how AD stores and organizes objects, let's manage them in Task 4.
+### ⚖️ OUs vs. Groups
+
+| Concept          | Purpose                              | Notes                                         |
+|------------------|--------------------------------------|-----------------------------------------------|
+| Organizational Unit (OU) | Apply GPOs / structure org         | 1 OU per user                                 |
+| Security Group   | Assign permissions to resources      | Multiple groups per user allowed              |
+
+OUs structure the domain — Groups control access.
+
+---
+## 👥 Task 4 - Managing Users in AD
+
+As a new AD Administrator, you’ve received a request to **review and update the Organizational Units (OUs)** and users to match the updated org chart.
 
 ---
 
-## 🔧 Task 4 - Managing Users in Active Directory
+### 📋 Step 1: Review the Org Chart
 
-As the new domain administrator at THM Inc., your first task is to clean up the Active Directory (AD) users and OUs to reflect the current organizational structure.
-
----
-
-### 🧭 Organizational Chart
-
-Here’s the updated org chart you need to align the AD structure with:
-
-![Org Chart](./images/screenshot_task4_org_chart.png)
+📌 Organizational Chart  
+![Org Chart](https://github.com/user-attachments/assets/d6b7e103-0f7f-4437-bf42-4ebd61ad0451)
 
 ---
 
-### 🗑️ Deleting Extra OUs
+### 🧹 Step 2: Delete Unused OUs
 
-You'll notice some outdated OUs in the domain structure. When trying to delete one of them, you’ll receive an error:
+You’ll notice an extra department in AD not shown in the org chart. Try to delete it, but…
 
-![Deletion Error](./images/screenshot_task4_delete_error.png)
-
----
-
-To remove the OU, first enable **Advanced Features**:
-
-![Advanced Features](./images/screenshot_task4_advanced_features.png)
+📌 Error When Deleting OU  
+![Delete Error](https://github.com/user-attachments/assets/f48d8f81-a8a2-45b2-9e0e-2f6a2522427d)
 
 ---
 
-Then, uncheck **Protect object from accidental deletion**:
+By default, OUs are protected from accidental deletion.
 
-![Uncheck Protection](./images/screenshot_task4_uncheck_protection.png)
+✅ To delete the OU:
 
----
+1. Enable **Advanced Features** from the `View` menu.
 
-### 🧑‍💼 Delegating OU Control
+📌 Enable Advanced Features  
+![Advanced Features](https://github.com/user-attachments/assets/ab404e80-708a-40d2-8b9d-c7337d86c1b3)
 
-You want Phillip (IT Support) to reset passwords in the Sales, Marketing, and Management OUs.
+2. Open OU properties → `Object` tab → Uncheck **Protect object from accidental deletion**.
 
-Right-click the OU (e.g., Sales) and select **Delegate Control...**:
+📌 Disable OU Protection  
+![Disable Protection](https://github.com/user-attachments/assets/52f32b97-3778-496a-b834-b101a88b1544)
 
-![Delegate Control](./images/screenshot_task4_delegate_control.png)
-
----
-
-Use **Add** and **Check Names** to select the `phillip` user:
-
-![Add Phillip](./images/screenshot_task4_add_phillip.png)
+3. Delete the OU again – it will succeed.
 
 ---
 
-In the next step, choose **Reset user passwords and force password change at next logon**:
+### ➕ Step 3: Create or Delete Users
 
-![Choose Reset Password](./images/screenshot_task4_choose_reset.png)
+Ensure each department has the correct users.
+
+📌 OU and User View  
+![OU Tree](https://github.com/user-attachments/assets/704dbb97-94bf-4091-be70-a48e85a91e89)  
+![Users in OU](https://github.com/user-attachments/assets/7394f7e4-b0c1-47db-919b-e19119c3dd27)
 
 ---
 
-### 🧪 Verifying with Phillip's Account
+### 👤 Step 4: Delegate Password Reset Privileges
 
-Phillip's credentials:
+Let’s **delegate password reset permissions** to Phillip (IT Support) for the `Sales OU`.
 
-![Phillip Credentials](./images/screenshot_task4_phillip_creds.png)
+📌 Delegate Control  
+![Delegate OU](https://github.com/user-attachments/assets/10493208-a771-4db3-9a72-7cb13de4ecdf)
 
-Use PowerShell to reset Sophie’s password:
+---
+
+1. Add `phillip` as the delegated user.
+
+📌 Add User  
+![Add Phillip](https://github.com/user-attachments/assets/9564fdfd-256a-499a-a7dd-09522efd8177)
+
+2. Choose **Reset passwords** permission.
+
+📌 Select Reset Task  
+![Reset Password Option](https://github.com/user-attachments/assets/2caad36b-7183-4c62-9c3b-73ee964d3ac0)
+
+---
+
+### 🔑 Try Phillip’s New Permissions
+
+Login as Phillip:
+
+📌 Phillip's Credentials  
+![Phillip Login](./images/screenshot_ad_phillip_creds.png)
+
+- **Username**: `THM\phillip`  
+- **Password**: `Claire2008`
+
+---
+
+### 🧪 PowerShell: Reset Sophie’s Password
+
+As Phillip, use PowerShell:
 
 ```powershell
 Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString -Prompt 'New Password') -Verbose
