@@ -1,4 +1,4 @@
-# 🖥️ TryHackMe - Windows Fundamentals 1
+# 🪟 TryHackMe - Windows Fundamentals 1
 
 > A detailed walkthrough of Windows OS basics using the TryHackMe virtual environment  
 
