@@ -1,8 +1,6 @@
 # 🖥️ TryHackMe - Windows Fundamentals 1
 
 > A detailed walkthrough of Windows OS basics using the TryHackMe virtual environment  
-> Author: [Your Name]  
-> Source: [TryHackMe - Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1)
 
 ---
 
