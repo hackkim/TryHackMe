@@ -128,88 +128,64 @@ OUs structure the domain — Groups control access.
 ---
 ## 👥 Task 4 - Managing Users in AD
 
-As a new AD Administrator, you’ve received a request to **review and update the Organizational Units (OUs)** and users to match the updated org chart.
+Our first job as domain administrators is to review the Active Directory users and OUs and ensure they match the organizational structure.
 
 ---
 
-### 📋 Step 1: Review the Org Chart
+### 🧱 Organizational Chart
 
-📌 Organizational Chart  
-![Org Chart](https://github.com/user-attachments/assets/d6b7e103-0f7f-4437-bf42-4ebd61ad0451)
-
----
-
-### 🧹 Step 2: Delete Unused OUs
-
-You’ll notice an extra department in AD not shown in the org chart. Try to delete it, but…
-
-📌 Error When Deleting OU  
-![Delete Error](https://github.com/user-attachments/assets/f48d8f81-a8a2-45b2-9e0e-2f6a2522427d)
+📌 THM Inc. Departmental Overview  
+![Org Chart]("https://github.com/user-attachments/assets/4f74d03d-17d7-40ea-a5f9-404c25a413c8)
 
 ---
 
-By default, OUs are protected from accidental deletion.
+### 🗑️ Deleting Extra OUs
 
-✅ To delete the OU:
+We found an extra OU that doesn't appear in the chart. Trying to delete it prompts an error:
 
-1. Enable **Advanced Features** from the `View` menu.
+📌 Deletion Protection Error  
+![OU Delete Error](https://github.com/user-attachments/assets/a7b07285-36be-4966-9d22-efa0fb9f10a8)
 
-📌 Enable Advanced Features  
-![Advanced Features](https://github.com/user-attachments/assets/ab404e80-708a-40d2-8b9d-c7337d86c1b3)
+To resolve this:
 
-2. Open OU properties → `Object` tab → Uncheck **Protect object from accidental deletion**.
+1. Go to **View** > Enable **Advanced Features**  
+   ![Advanced Features](https://github.com/user-attachments/assets/ee6e34bc-b1c6-498d-96fe-97d8ea13ad69)
 
-📌 Disable OU Protection  
-![Disable Protection](https://github.com/user-attachments/assets/52f32b97-3778-496a-b834-b101a88b1544)
+2. Right-click the OU → **Properties** → **Object**  
+3. Uncheck **Protect object from accidental deletion**  
+   ![OU Protection](https://github.com/user-attachments/assets/94f5e913-8962-4265-b707-21cdeb01f04b)
 
-3. Delete the OU again – it will succeed.
-
----
-
-### ➕ Step 3: Create or Delete Users
-
-Ensure each department has the correct users.
-
-📌 OU and User View  
-![OU Tree](https://github.com/user-attachments/assets/704dbb97-94bf-4091-be70-a48e85a91e89)  
-![Users in OU](https://github.com/user-attachments/assets/7394f7e4-b0c1-47db-919b-e19119c3dd27)
+You can now delete the OU and any users/groups under it.
 
 ---
 
-### 👤 Step 4: Delegate Password Reset Privileges
+### 🔁 Updating Users to Match the Chart
 
-Let’s **delegate password reset permissions** to Phillip (IT Support) for the `Sales OU`.
-
-📌 Delegate Control  
-![Delegate OU](https://github.com/user-attachments/assets/12ad8a77-3f68-4547-a153-5525510e26e4)
+After deleting the extra OU, match the users to the chart by removing or creating as needed.
 
 ---
 
-1. Add `phillip` as the delegated user.
+### 👨‍🔧 Delegating Password Reset Rights
 
-📌 Add User  
-![Add Phillip](https://github.com/user-attachments/assets/9564fdfd-256a-499a-a7dd-09522efd8177)
+We want to allow **Phillip (IT Support)** to reset passwords for users in Sales, Marketing, and Management.
 
-2. Choose **Reset passwords** permission.
+1. Right-click the **Sales OU** → Select **Delegate Control**  
+   ![Delegate Control](https://github.com/user-attachments/assets/9d11ebfc-3f89-4fcc-bf84-9233d40bbc8b)
 
-📌 Select Reset Task  
-![Reset Password Option](https://github.com/user-attachments/assets/2caad36b-7183-4c62-9c3b-73ee964d3ac0)
+2. Add **phillip** as the delegate  
+   ![Delegate Add User](https://github.com/user-attachments/assets/9d88e02b-0d0d-4b60-91d2-b0b183b588a4)
 
----
-
-### 🔑 Try Phillip’s New Permissions
-
-Login as Phillip:
-
-📌 Phillip's Credentials  
-![Phillip Login](https://github.com/user-attachments/assets/a2e21e9a-a28a-4a61-9541-6a0435c7d40b)
-
-- **Username**: `THM\phillip`  
-- **Password**: `Claire2008`
+3. Choose "Reset user passwords and force password change at next logon"  
+   ![Delegate Reset Password](https://github.com/user-attachments/assets/99625136-768d-4514-b85a-c0753c322454)
 
 ---
 
-### 🧪 PowerShell: Reset Sophie’s Password
+### 🔑 Credentials to Use for Testing
+
+Phillip's login credentials for RDP:
+
+📌 Phillip's RDP Info  
+![Phillip RDP](https://github.com/user-attachments/assets/697bf436-5bb6-4233-83be-625926c3dee8)
 
 As Phillip, use PowerShell:
 
@@ -235,7 +211,7 @@ By default, all newly joined machines are placed in the **Computers** container.
 
 When a domain is configured, all domain-joined machines are placed here initially:
 
-![Default Computers Container](./images/screenshot_ad_computers_list.png)
+![Default Computers Container](https://github.com/user-attachments/assets/a42ead85-2c26-4caa-a113-90958a025689)
 
 In the above example, we see various machine accounts:
 - Laptops: `LPT-*`
@@ -252,7 +228,7 @@ To manage policies more efficiently, we create **Organizational Units (OUs)** th
 - `Workstations` → for employee laptops/desktops
 - `Servers` → for back-end or infrastructure systems
 
-![Created OUs](./images/screenshot_ad_created_ous.png)
+![Created OUs](https://github.com/user-attachments/assets/4cdbccf9-755d-40db-92a8-effc93acd804)
 
 ---
 
@@ -285,7 +261,7 @@ Group Policies allow administrators to manage configurations for users and compu
 
 To get started, launch **Group Policy Management** from the Start menu.
 
-![Group Policy Management](./images/screenshot_group_policy_launch.png)
+![Group Policy Management](https://github.com/user-attachments/assets/37ad00e6-2131-4e48-b1c4-f2ab9da21c18)
 
 ---
 
@@ -293,7 +269,7 @@ To get started, launch **Group Policy Management** from the Start menu.
 
 GPOs are created under **Group Policy Objects** and then linked to Organizational Units (OUs) to take effect.
 
-![GPOs created and linked](./images/screenshot_gpo_linked.png)
+![GPOs created and linked](https://github.com/user-attachments/assets/94b345c9-6a24-4837-9098-09b6551872cb)
 
 ---
 
@@ -301,7 +277,7 @@ GPOs are created under **Group Policy Objects** and then linked to Organizationa
 
 Each GPO has a **Scope** tab that shows where the policy is linked and who it applies to.
 
-![Scope tab](./images/screenshot_gpo_scope.png)
+![Scope tab](https://github.com/user-attachments/assets/86985c76-e3dc-47b6-ac39-af26d0fac116)
 
 ---
 
@@ -309,7 +285,7 @@ Each GPO has a **Scope** tab that shows where the policy is linked and who it ap
 
 The **Settings** tab shows which policies are active under Computer or User Configuration.
 
-![GPO Settings tab](./images/screenshot_gpo_settings_tab.png)
+![GPO Settings tab](https://github.com/user-attachments/assets/f22fcc82-3069-4a42-94d0-5672d6263dbd)
 
 ---
 
@@ -317,7 +293,7 @@ The **Settings** tab shows which policies are active under Computer or User Conf
 
 The **Default Domain Policy** typically includes password policies and lockout settings.
 
-![Default domain policy details](./images/screenshot_default_domain_policy.png)
+![Default domain policy details](https://github.com/user-attachments/assets/8e428c99-fc13-42c5-b15f-7d42bca0f358)
 
 ---
 
@@ -325,7 +301,7 @@ The **Default Domain Policy** typically includes password policies and lockout s
 
 To modify a GPO, right-click and choose **Edit**.
 
-![Edit GPO](./images/screenshot_edit_gpo.png)
+![Edit GPO](https://github.com/user-attachments/assets/06a91c97-df20-45f1-b12f-dc88e76ebe8d)
 
 ---
 
@@ -333,7 +309,7 @@ To modify a GPO, right-click and choose **Edit**.
 
 Navigate to the password policy settings and adjust options like **minimum password length**.
 
-![Minimum password length](./images/screenshot_password_length.png)
+![Minimum password length](https://github.com/user-attachments/assets/d1044ace-acf0-4e2b-9cec-350937213f1a)
 
 ---
 
@@ -341,7 +317,7 @@ Navigate to the password policy settings and adjust options like **minimum passw
 
 Use the **Explain** tab to read detailed descriptions of each setting.
 
-![Explain tab](./images/screenshot_explain_password_setting.png)
+![Explain tab](https://github.com/user-attachments/assets/20d9e950-65fe-400e-a2dd-96046dfddff6)
 
 ---
 
@@ -351,7 +327,7 @@ Create a new GPO and enable the setting:
 
 **User Configuration → Admin Templates → Control Panel → Prohibit access to Control Panel and PC settings**
 
-![Prohibit Control Panel Access](./images/screenshot_restrict_control_panel.png)
+![Prohibit Control Panel Access](https://github.com/user-attachments/assets/1c784e04-e96b-4775-ac96-a90744e264f3)
 
 ---
 
@@ -359,7 +335,7 @@ Create a new GPO and enable the setting:
 
 Apply this GPO only to OUs that require restrictions (e.g., Sales, Management).
 
-![Linking Control Panel GPO](./images/screenshot_link_gpo_control_panel.png)
+![Linking Control Panel GPO](https://github.com/user-attachments/assets/dc00c45e-a2c4-4eac-af24-6c8d3d741909)
 
 ---
 
@@ -371,7 +347,8 @@ Create a GPO to automatically lock the screen after inactivity.
 
 Set to **300 seconds (5 minutes)**.
 
-![Auto Lock Screen setting](./images/screenshot_machine_inactivity_limit.png)
+![Auto Lock Screen setting](<img width="795" alt="스크린샷 2025-04-06 오후 11 18 05" src="https://github.com/user-attachments/assets/80c3258e-71d2-4977-8241-7dfb30ed6cd6" />
+)
 
 ---
 
@@ -379,7 +356,8 @@ Set to **300 seconds (5 minutes)**.
 
 Link the Auto Lock Screen policy to the domain so it affects all workstations.
 
-![Auto Lock Screen GPO linked](./images/screenshot_auto_lock_linked.png)
+![Auto Lock Screen GPO linked](<img width="929" alt="스크린샷 2025-04-06 오후 11 18 11" src="https://github.com/user-attachments/assets/966a7518-d204-4283-b3ff-6e4838653d9f" />
+)
 
 ---
 
@@ -387,7 +365,7 @@ Link the Auto Lock Screen policy to the domain so it affects all workstations.
 
 Login using a test user (e.g., Mark) to confirm that restrictions and lockouts are working properly.
 
-![Mark credentials](./images/screenshot_mark_credentials.png)
+![Mark credentials](https://github.com/user-attachments/assets/11d7383f-00d9-4003-aeb9-99bd6774c712)
 
 ---
 
@@ -411,7 +389,7 @@ Kerberos is a ticket-based protocol that uses session keys and a ticket-granting
 The client sends its **username** and an encrypted **timestamp** to the Key Distribution Center (KDC).
 
 📌  
-![Kerberos Step 1 - Request TGT](./images/kerberos_step1_request_tgt.png)
+![Kerberos Step 1 - Request TGT](https://github.com/user-attachments/assets/cf5c1317-f767-4e82-8d59-296a63fcd145)
 
 The KDC replies with:
 
@@ -429,7 +407,7 @@ To access a service (e.g., MSSQL), the client uses the TGT to request a **TGS** 
 - The **SPN** (Service Principal Name)
 
 📌  
-![Kerberos Step 2 - Request TGS](./images/kerberos_step2_request_tgs.png)
+![Kerberos Step 2 - Request TGS](https://github.com/user-attachments/assets/c0b482c9-6623-47c4-b41f-528273dc6438)
 
 The KDC responds with:
 
@@ -443,7 +421,7 @@ The KDC responds with:
 The client sends the **TGS** and an encrypted **timestamp** to the target service to prove identity.
 
 📌  
-![Kerberos Step 3 - Authenticate to Service](./images/kerberos_step3_authenticate.png)
+![Kerberos Step 3 - Authenticate to Service](https://github.com/user-attachments/assets/f68b1cbd-3de4-4ed7-85da-58af8382147b)
 
 ---
 
@@ -463,7 +441,7 @@ NetNTLM is a legacy challenge-response authentication protocol. While outdated, 
 6. Authentication is either allowed or denied.
 
 📌  
-![NetNTLM Flow](./images/netntlm_authentication_flow.png)
+![image](https://github.com/user-attachments/assets/465ca03b-6df1-425a-8fd2-9737121f7456)
 
 > ⚠️ Password hashes are never sent across the network in plain text.
 
@@ -478,7 +456,7 @@ In large enterprise environments, a single domain might not be sufficient. Micro
 
 A basic domain structure consists of a domain controller and other systems (file server, workstation, etc.) under one namespace.
 
-![Domain Structure](./images/screenshot_task8_domain.png)
+![Domain Structure](https://github.com/user-attachments/assets/4b718bca-5a75-4e5f-a64d-ebb922ab1f65)
 
 ---
 
@@ -491,7 +469,7 @@ A tree is a collection of domains that share a contiguous namespace. For example
 
 Each domain can be administered independently, but they’re part of the same tree.
 
-![Tree Structure](./images/screenshot_task8_tree.png)
+![Tree Structure](https://github.com/user-attachments/assets/70613072-a20f-4dfe-8255-b82c0bb1814a)
 
 ---
 
@@ -505,7 +483,7 @@ Example:
 
 Together they form a forest.
 
-![Forest Structure](./images/screenshot_task8_forest.png)
+![Forest Structure](https://github.com/user-attachments/assets/98bc2206-911c-462e-b472-43a52ae66f8d)
 
 ---
 
@@ -519,7 +497,7 @@ Trusts allow users in one domain to access resources in another domain.
 For example:
 If `Domain AAA` trusts `Domain BBB`, users in `BBB` can access resources in `AAA` (but not vice versa).
 
-![Trust Direction](./images/screenshot_task8_trust.png)
+![Trust Direction](https://github.com/user-attachments/assets/9743cd0d-776d-489f-9476-817b9b0736b6)
 
 ---
 
