@@ -17,6 +17,8 @@ It introduces web technologies, client/server interactions, common vulnerabiliti
 
 ### 1. 🧩 Web Application Basics
 
+![Web Application Basics](https://github.com/user-attachments/assets/c7c977b7-2fab-4f3b-a68f-36b4d1bd0b3f)
+
 #### 📚 What You’ll Learn:
 - How web applications work
 - HTTP request/response flow
@@ -31,6 +33,8 @@ Understanding web basics is essential before learning exploitation. This module 
 ---
 
 ### 2. 🖱️ JavaScript Essentials
+
+![JavaScript Essentials](https://github.com/user-attachments/assets/c2ebf784-fbdf-4a22-9603-acd27fbb5297)
 
 #### 📚 What You’ll Learn:
 - JavaScript syntax and execution
@@ -48,6 +52,8 @@ Many web vulnerabilities today exploit JavaScript. You’ll need to understand J
 
 ### 3. 🧮 SQL Fundamentals
 
+![SQL Fundamentals](https://github.com/user-attachments/assets/80de32c7-fee7-4da1-a355-98ec01f48a44)
+
 #### 📚 What You’ll Learn:
 - SQL basics: `SELECT`, `INSERT`, `UPDATE`, `DELETE`
 - Query filtering: `WHERE`, `LIKE`, `ORDER BY`
@@ -60,6 +66,8 @@ SQL Injection (SQLi) is a top web vulnerability. Knowing SQL helps understand ho
 ---
 
 ### 4. 🧪 Burp Suite: The Basics
+
+![Burp Suite: The Basics](https://github.com/user-attachments/assets/6a49c2c9-586b-4e9b-b497-e84991ae88de)
 
 #### 📚 What You’ll Learn:
 - Introduction to Burp Suite (Community Edition)
@@ -76,6 +84,8 @@ Burp Suite is the **most used tool** in web pentesting. Mastering it is a must f
 ---
 
 ### 5. 🛡️ OWASP Top 10 - 2021
+
+![OWASP Top 10 - 2021](https://github.com/user-attachments/assets/f710f84a-ec28-44fc-8507-7c22d42e0387)
 
 #### 📚 What You’ll Learn:
 - The 10 most critical web vulnerabilities:
