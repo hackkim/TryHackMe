@@ -202,7 +202,7 @@ If browser won't launch:
 
 ## 🛡️ Task 12: Scoping and Targeting
 
-![Burp Scope Right-Click Menu](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/5db0a2b0597830ae32aaaf9b80d73187.gif)
+![Burp Scope Right-Click Menu](https://github.com/user-attachments/assets/7e4e1877-c4c9-42df-98b2-e215b82ab430)
 ![Burp Intercept Only In Scope](https://github.com/user-attachments/assets/1fecf5c6-4ee9-414b-a9ab-91d753f42007)
 
 Set scope to:
@@ -223,7 +223,7 @@ Steps:
 ![Firefox Certificate Error Warning](https://github.com/user-attachments/assets/4b2720be-a947-44dc-b21b-202e41421b0e)
 ![Firefox Certificate Settings Search](https://github.com/user-attachments/assets/2e823932-eea5-4825-96d2-659f6ac986d6)
 ![Trust PortSwigger CA Certificate](https://github.com/user-attachments/assets/989c7ac1-94b1-4577-986c-0d2d09c259cf)
-![Firefox Certificate Manager](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/fb2a8717ae887eda024a7791d83cefaf.gif)
+![Firefox Certificate Manager](https://github.com/user-attachments/assets/2fbfa1a4-2e4d-4bf8-9002-b00d3bdd46af)
 
 
 Issue: HTTPS sites show security error because Burp uses a self-signed CA certificate.
@@ -244,8 +244,8 @@ Fix:
 
 
 ![Support Form Input](https://github.com/user-attachments/assets/461e4c0b-6c25-43fb-891e-412661fc7fb0)
-![Support Form Typing](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/04acd78be44400cf105c7d41b104b7fe.gif)
-![Intercepted Support Form Submission](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/58c5bf5382cdee55ab12e0752d819ebe.gif)
+![Support Form Typing](https://github.com/user-attachments/assets/d5415cf8-4e8d-430c-b6f8-a70813b0666f)
+![Intercepted Support Form Submission](https://github.com/user-attachments/assets/1360ccca-b38c-4940-89cc-9d7efd01e9bf)
 ![Successful XSS Popup](https://github.com/user-attachments/assets/cb628736-3ab7-4721-8bb9-3fc759b719e8)
 
 
