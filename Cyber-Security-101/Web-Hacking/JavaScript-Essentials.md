@@ -106,9 +106,9 @@ greet("Bob");
 ![Open internal.html with Pluma](https://github.com/user-attachments/assets/d15ac154-2b36-4465-b3a2-5455349e0814)
 ![Internal JS result in browser](https://github.com/user-attachments/assets/88adef5f-732e-4c19-b1b1-e07c2b2e1382)
 ![External JS result in browser](https://github.com/user-attachments/assets/0e66dbb2-2e42-401b-a8a5-b0b72cd1651c)
-![Right-click View Page Source](https://github.com/user-attachments/assets/90dd64b6-fb95-4152-95fb-709f5add1338)
-![HTML shows external JS src](https://github.com/user-attachments/assets/1960f194-c77d-4fba-9b37-5aae80831652)
-![External JS loaded from TryHackMe](https://github.com/user-attachments/assets/38597748-dc23-4b6b-9b76-0c5adfa10d6e)
+![Right-click View Page Source](https://github.com/user-attachments/assets/3af2a4ff-c012-40a2-8c59-4112a524d5d9)
+![HTML shows external JS src](https://github.com/user-attachments/assets/38597748-dc23-4b6b-9b76-0c5adfa10d6e)
+![External JS loaded from TryHackMe](https://github.com/user-attachments/assets/04420a2a-8b80-4712-986e-a1ba5564d56a)
 
 
 ### 🧩 Internal JS
@@ -134,10 +134,10 @@ greet("Bob");
 ## Task 5: Abusing Dialogue Functions
 
 
-![JS alert example](./alert_hello_thm.png)
-![JS prompt example](./prompt_name_input.png)
-![JS confirm example](./confirm_dialog.png)
-![JS alert hacked file](./invoice_alert_hacked.png)
+![JS alert example](https://github.com/user-attachments/assets/3f59c066-463a-43b8-b4a3-9d0026c46281)
+![JS prompt example](https://github.com/user-attachments/assets/f87f5ab9-bb4d-4f4a-89a6-f63f71d1b8cf)
+![JS confirm example](https://github.com/user-attachments/assets/3726e7a7-1b26-44c1-9e74-7e480d1e4077)
+![JS alert hacked file](https://github.com/user-attachments/assets/acc53486-f7e5-4283-af1a-4339db0d8923)
 
 
 Built-in dialogue functions:
@@ -161,9 +161,9 @@ Attackers can abuse these to annoy or confuse users.
 ## Task 6: Bypassing Control Flow Statements
 
 
-![Age Prompt Verification](./age_verification_prompt.png)
-![login.html File](./login_file_highlighted.png)
-![Login Authenticated Page](./login_auth_success.png)
+![Age Prompt Verification](https://github.com/user-attachments/assets/5af3eb5c-f947-4d86-ab43-5bb914f2b2f1)
+![login.html File](https://github.com/user-attachments/assets/68ead8a1-f921-42c0-809f-676f94ef775b)
+![Login Authenticated Page](https://github.com/user-attachments/assets/f3ba2541-9358-4703-9b9a-cf77600f94f1)
 
 
 Example:
@@ -188,11 +188,11 @@ Always validate authentication server-side.
 ## Task 7: Exploring Minified Files
 
 
-![Alert from hello.html](./hello_html_alert_welcome.png)
-![hello.js visible in Sources tab](./hello_js_browser_sources.png)
-![Online JS Obfuscator](./js_obfuscator_tool.png)
-![Obfuscated JS loaded in browser](./browser_loaded_obfuscated_code.png)
-![JS deobfuscator result](./deobfuscator_result_example.png)
+![Alert from hello.html](https://github.com/user-attachments/assets/d3f58b22-4cd6-44b8-983c-2ab609a01bc6)
+![hello.js visible in Sources tab](https://github.com/user-attachments/assets/66cfeb60-2a8e-4000-9c04-b8a96dee0f52)
+![Online JS Obfuscator](https://github.com/user-attachments/assets/f5dd10c9-bfe1-49bd-82b6-03ca3bef6a23)
+![Obfuscated JS loaded in browser](https://github.com/user-attachments/assets/4f8005b4-b4f2-4d28-af34-b2e2803d596f)
+![JS deobfuscator result](https://github.com/user-attachments/assets/eafd4ae0-d491-435f-9ea0-cc9078c274c5)
 
 
 ### ✅ Minification
