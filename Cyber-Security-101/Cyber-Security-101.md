@@ -4,6 +4,11 @@
 > I'm using this repository to take notes, track progress, and reflect on what I’ve learned in each module.
 
 ---
+## 🏆 Certificate of Completion
+
+![Cyber Security 101 Certificate](https://github.com/user-attachments/assets/41433a19-7c4b-49a9-902c-a7dd44e1b8fc)
+
+---
 
 ## 🔰 Overview
 
