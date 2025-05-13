@@ -1,4 +1,4 @@
-# 🚨 File Inclusion Vulnerabilities 🚨
+# 🚨 File Inclusion 🚨
 
 ## 📌 Task 1: Introduction
 
