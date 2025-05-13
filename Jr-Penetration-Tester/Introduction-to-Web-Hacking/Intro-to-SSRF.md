@@ -1,4 +1,4 @@
-# 📌 Introduction to Server-Side Request Forgery (SSRF)
+# 📌 Intro to SSRF
 
 ## ✅ Task 1: What is SSRF?
 
