@@ -4,7 +4,7 @@
 
 Burp Suite is the industry-standard tool for web application hacking and penetration testing. This learning path will guide you through mastering essential Burp Suite modules.
 
-## ✅ [Burp Suite: The Basics](https://github.com/yourusername/yourrepository)
+## ✅ [Burp Suite: The Basics](https://github.com/hackkim/TryHackMe/blob/master/Cyber-Security-101/Web-Hacking/Burp-Suite%3A%20The-Basics.md)
 
 ![](https://github.com/user-attachments/assets/1f83d153-f77e-4780-80d6-2cc4f8f9ebe9)
 
