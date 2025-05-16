@@ -118,7 +118,8 @@ dig @1.1.1.1 tryhackme.com TXT
 
 Below is another style of DNS visualization showing authoritative name servers, IP addresses, email servers, and subdomain structure including hosting provider metadata.
 
-![DNSDumpster Alternate Graph](./eb95e62815b6ace3c823fd0159884731.jpeg)
+![DNSDumpster Alternate Graph](https://github.com/user-attachments/assets/8e2148dd-57c1-48e1-84e3-06a6ea83fc6a)
+
 
 ---
 
