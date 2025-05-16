@@ -40,7 +40,7 @@ Positions define where payloads will be injected in requests:
 ![Positions Setup](https://github.com/user-attachments/assets/78780fc4-c900-420a-a4c9-0c581beaafe2)
 
 - Clearing existing positions:  
-![Positions Clearing](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/504d75f7c90e1c985dae5e05038f50ac.gif)
+![Positions Clearing](https://github.com/user-attachments/assets/da2c0b9f-6acc-4f2c-ae3c-30a5dd96077d)
 
 ---
 
@@ -185,7 +185,7 @@ We face dynamically generated tokens and session cookies.
    ![Macro Step 1](https://github.com/user-attachments/assets/79e06219-a6c7-4a1a-af40-8c148f62e7e7)
 
 2. **Create a Burp Macro:**  
-   ![Macro Step 2](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/3b370cfce8a050faf415c7d9a5a8227e.gif)
+   ![Macro Step 2](https://github.com/user-attachments/assets/b481594f-5134-4eb2-a6a6-014bb3aa6eb6)
 
 3. **Configure Session Handling Rules:**  
    - Define session handling scope:  
@@ -193,7 +193,7 @@ We face dynamically generated tokens and session cookies.
    - Configure macro actions and parameters:  
      ![Macro Step 4](https://github.com/user-attachments/assets/a6b9cff3-6a9d-45b8-9040-a85616b95623)
    - Limit macro actions to specific fields (`loginToken`, `session` cookie):  
-     ![Macro Step 5](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/250c140897e3b470093e7232c70c07cf.gif)
+     ![Macro Step 5](https://github.com/user-attachments/assets/26610b69-525e-453e-844b-905c2ee1dec5)
 
 4. **Payload Setup:**  
    Use **Pitchfork** with username/password lists.
