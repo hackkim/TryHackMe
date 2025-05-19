@@ -1,4 +1,4 @@
-# 🔐 Protocols and Servers 2 - Attacks and Mitigation (Detailed Summary)
+# 🔐 Protocols and Servers 2
 
 This document thoroughly explores attacks targeting common networking protocols and outlines modern mitigation techniques.
 
