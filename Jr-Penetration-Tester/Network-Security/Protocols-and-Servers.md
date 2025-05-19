@@ -1,4 +1,4 @@
-# 📡 Protocols and Servers
+# 📡 TryHackMe: Network Security - Protocols and Servers
 
 This document explores foundational network protocols including Telnet, HTTP, FTP, SMTP, POP3, and IMAP, providing insight into how they operate at a low level and revealing associated security concerns.
 
