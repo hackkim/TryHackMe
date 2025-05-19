@@ -1,4 +1,4 @@
-# 🔧 Net Sec Challenge
+# 🔧 TryHackMe: Network Security - Net Sec Challenge
 
 Use this challenge to validate and reinforce your skills from the **Network Security** module. You are expected to rely only on three tools:
 
