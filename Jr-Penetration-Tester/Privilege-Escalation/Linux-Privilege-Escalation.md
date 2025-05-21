@@ -138,25 +138,16 @@ Recommended tools:
 
 ### 📁 Task 10: PATH Vulnerabilities
 
-![echo path](<img width="477" alt="스크린샷 2025-05-20 오후 12 34 14" src="https://github.com/user-attachments/assets/997b030e-388e-4345-8f27-31f5c8288ebb" />
-)
-![path_exp.c](<img width="400" alt="스크린샷 2025-05-20 오후 12 34 20" src="https://github.com/user-attachments/assets/301d9e50-3bc2-4e62-8b61-a50010e841e9" />
-)
-![compiled binary](<img width="743" alt="스크린샷 2025-05-20 오후 12 34 27" src="https://github.com/user-attachments/assets/e10ec572-6d34-4708-b181-65e92e7f22a0" />
-)
-![ls view](<img width="612" alt="스크린샷 2025-05-20 오후 12 34 33" src="https://github.com/user-attachments/assets/9fd00388-e509-427a-9569-a779f8fb1a02" />
-)
-![writable dirs](<img width="475" alt="스크린샷 2025-05-20 오후 12 34 40" src="https://github.com/user-attachments/assets/fe45a955-a32c-4eed-b089-af3399aa2b52" />
-)
-![echo again](스크린샷 2025-05-20 오후 12.34.47)
-![add tmp](<img width="931" alt="스크린샷 2025-05-20 오후 12 34 53" src="https://github.com/user-attachments/assets/1905c3c0-a643-4796-8e16-2f004ede7e4e" />
-)
-![fake binary](<img width="934" alt="스크린샷 2025-05-20 오후 12 35 02" src="https://github.com/user-attachments/assets/81da9405-3d52-4118-9962-bd7da8d6bdc1" />
-)
-![whoami](<img width="563" alt="스크린샷 2025-05-20 오후 12 35 09" src="https://github.com/user-attachments/assets/8dfdd993-98a6-42fb-a33a-cee2871d2aee" />
-)
-![root confirmed](<img width="934" alt="스크린샷 2025-05-20 오후 12 35 15" src="https://github.com/user-attachments/assets/179cedd0-20c8-42bc-be03-5dfd86af0de9" />
-)
+![echo path](https://github.com/user-attachments/assets/997b030e-388e-4345-8f27-31f5c8288ebb)
+![path_exp.c](https://github.com/user-attachments/assets/301d9e50-3bc2-4e62-8b61-a50010e841e9)
+![compiled binary](https://github.com/user-attachments/assets/e10ec572-6d34-4708-b181-65e92e7f22a0)
+![ls view](https://github.com/user-attachments/assets/9fd00388-e509-427a-9569-a779f8fb1a02)
+![writable dirs](https://github.com/user-attachments/assets/fe45a955-a32c-4eed-b089-af3399aa2b52)
+![echo again](https://github.com/user-attachments/assets/585bda60-a687-4b64-8196-4d40e22cb532)
+![add tmp](https://github.com/user-attachments/assets/1905c3c0-a643-4796-8e16-2f004ede7e4e)
+![fake binary](https://github.com/user-attachments/assets/81da9405-3d52-4118-9962-bd7da8d6bdc1)
+![whoami](https://github.com/user-attachments/assets/8dfdd993-98a6-42fb-a33a-cee2871d2aee)
+![root confirmed](https://github.com/user-attachments/assets/179cedd0-20c8-42bc-be03-5dfd86af0de9)
 
 - Writable directories in $PATH can be hijacked
 - Create fake binary with root SUID
@@ -165,12 +156,12 @@ Recommended tools:
 
 ### 🗂 Task 11: NFS Misconfigurations
 
-![/etc/exports](./스크린샷_2025-05-20_오후_12.36.00.png)
-![showmount](./스크린샷_2025-05-20_오후_12.36.05.png)
-![mount nfs](./스크린샷_2025-05-20_오후_12.36.11.png)
-![nfs.c](./스크린샷_2025-05-20_오후_12.36.18.png)
-![compile suid](./스크린샷_2025-05-20_오후_12.36.24.png)
-![execute root](./스크린샷_2025-05-20_오후_12.36.30.png)
+![/etc/exports](https://github.com/user-attachments/assets/febdd524-6b80-43ad-a00a-5db8f7ed726a)
+![showmount](https://github.com/user-attachments/assets/38dca253-d0d5-406d-98db-d212e743f995)
+![mount nfs](https://github.com/user-attachments/assets/bc6416bc-09fe-4793-bd1c-dcf7f6b072f2)
+![nfs.c](https://github.com/user-attachments/assets/34d74290-c21a-43c4-bfc9-4338bf20540f)
+![compile suid](https://github.com/user-attachments/assets/3da8426b-9e93-4629-8242-2fe4514ef753)
+![execute root](https://github.com/user-attachments/assets/b7e2793a-0d5e-45c2-aadd-93d954e74f1e)
 
 - Misconfigured `no_root_squash`
 - Upload SUID root shell via mount
