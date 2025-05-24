@@ -58,19 +58,19 @@ Unprivileged users have limited access. The goal of this room is to explore tech
 ![Run as Administrator](https://github.com/user-attachments/assets/386055a2-a9cc-4085-aa7b-d2bccbfc44bb)
 
 ### SeTakeOwnership Exploit – Lock Screen Access
-![Lock the screen](https://github.com/user-attachments/assets/1840ff2f-6bd9-4782-807e-eef031d93472)
-![Ease of Access - Utilman Bypass](https://github.com/user-attachments/assets/b379ff8d-54ed-483a-894d-1f1e46580a0d)
-![SYSTEM Shell via Utilman](https://github.com/user-attachments/assets/caa08ea8-afbd-49aa-9ad4-fdd6fd7d1fd6)
+![Lock the screen](https://github.com/user-attachments/assets/0d80fd48-0fb3-4c7c-a128-5a045736577c)
+![Ease of Access - Utilman Bypass](https://github.com/user-attachments/assets/e0001fe9-738c-4f4c-8d87-8f1e223afe20)
+![SYSTEM Shell via Utilman](https://github.com/user-attachments/assets/f391d031-8596-4e29-9a6a-a2d6839a52b5)
 
 ### SeImpersonate / SeAssignPrimaryToken – Token Hijacking
-![Token usage without impersonation](https://github.com/user-attachments/assets/f91ba72a-4ba3-403e-ad07-bf61964e728e)
-![Token usage with impersonation](https://github.com/user-attachments/assets/e5d8aef5-0e47-45e4-9282-fa5cbd721451)
+![Token usage without impersonation](https://github.com/user-attachments/assets/fa05d316-126a-4fc0-bdd5-41f352f59307)
+![Token usage with impersonation](https://github.com/user-attachments/assets/ee4f6a0c-9953-4f17-ab95-68ebaffebac5)
 
 ### Checking Privileges
-![whoami /priv output](https://github.com/user-attachments/assets/f5dddb1e-bc8d-4ea2-a350-40b096fb0ab1)
+![whoami /priv output](https://github.com/user-attachments/assets/a30f2251-791e-4ce1-b8d7-dfec87674acc)
 
 ### Exploit in Action – RogueWinRM
-![RogueWinRM Exploit](https://github.com/user-attachments/assets/8ddeb35e-ce66-4bc8-8b9e-0b03ad4a3327)
+![RogueWinRM Exploit](https://github.com/user-attachments/assets/1f4e6159-dbba-4fc2-85e3-dd850ecec6f5)
 
 
 - **SeBackup / SeRestore**:
