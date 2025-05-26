@@ -86,6 +86,24 @@ An extensive introductory course covering broad cybersecurity topics such as net
 
 ---
 
+### 🚩 [Jr Penetration Tester Path](https://tryhackme.com/path/outline/jrpenetrationtester)  
+Learn the necessary skills to start a career as a penetration tester. This path covers pentesting methodologies and tactics, enumeration, exploitation, and hands-on practical hacking labs using industry tools.
+
+#### 🔖 Skills Gained:
+
+- Red Teaming & Penetration Testing
+- Linux System Exploitation
+- Enumeration and Vulnerability Scanning
+- Report Writing and Realistic Simulation Labs
+- Security Tools: Nmap, Metasploit, Hydra, Burp Suite, etc.
+
+🎓 **Certificate Earned:**  
+![Jr Penetration Tester Certificate](https://github.com/user-attachments/assets/9286bac4-e30a-4dbb-ae6d-d28418a8ef50)  
+🗓️ **Completed on:** May 26th, 2025  
+🕐 **Time to complete:** 29 hours 40 minutes  
+
+---
+
 ## 🔮 Next Steps
 
 To further expand my cybersecurity expertise, my future objectives include:
