@@ -1,4 +1,4 @@
-#🛡️ TryHackMe Cybersecurity Learning Journey
+🛡️ TryHackMe Cybersecurity Learning Journey
 
 A comprehensive documentation of my cybersecurity education through TryHackMe's structured learning paths. This repository serves as both a personal knowledge base and a resource for others beginning their cybersecurity journey.
 
@@ -28,7 +28,7 @@ Essential cybersecurity fundamentals for beginners, covering core concepts acros
 - **Linux Proficiency:** Command-line navigation, file system management, and permission structures
 - **Windows Security:** OS security mechanisms, common vulnerabilities, defensive strategies
 
-🏆 **Certificate:** [View Credential](https://github.com/user-attachments/assets/fedf1cd2-16f0-4b35-b6f0-1f28ad01305c)
+🏆 **Certificate:** ![View Credential](https://github.com/user-attachments/assets/fedf1cd2-16f0-4b35-b6f0-1f28ad01305c)
 
 ---
 
@@ -61,7 +61,7 @@ Comprehensive introduction to cybersecurity spanning multiple disciplines and pr
 - Security tool mastery: CyberChef, REMnux, FlareVM
 - Firewall and IDS/IPS configuration
 
-🏆 **Certificate:** [View Credential](https://github.com/user-attachments/assets/41433a19-7c4b-49a9-902c-a7dd44e1b8fc)
+🏆 **Certificate:** ![View Credential](https://github.com/user-attachments/assets/41433a19-7c4b-49a9-902c-a7dd44e1b8fc)
 
 ---
 
@@ -80,7 +80,7 @@ Professional-level penetration testing curriculum focusing on real-world methodo
 
 **Practical Experience:** Multiple hands-on simulation environments and realistic penetration testing scenarios
 
-🏆 **Certificate:** [View Credential](https://github.com/user-attachments/assets/9286bac4-e30a-4dbb-ae6d-d28418a8ef50)
+🏆 **Certificate:** ![View Credential](https://github.com/user-attachments/assets/9286bac4-e30a-4dbb-ae6d-d28418a8ef50)
 
 ---
 
