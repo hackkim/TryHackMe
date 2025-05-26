@@ -1,4 +1,4 @@
-#🛡️ TryHackMe Cybersecurity Learning Journey
+🛡️ TryHackMe Cybersecurity Learning Journey
 
 A comprehensive documentation of my cybersecurity education through TryHackMe's structured learning paths. This repository serves as both a personal knowledge base and a resource for others beginning their cybersecurity journey.
 
