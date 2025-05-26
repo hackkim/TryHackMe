@@ -1,131 +1,137 @@
-# 🛡️ TryHackMe Learning Journey
+#🛡️ TryHackMe Cybersecurity Learning Journey
 
-Welcome to my dedicated **TryHackMe** repository! Here, I thoroughly document my cybersecurity learning journey as I progress through structured educational paths on TryHackMe. You will find comprehensive notes, detailed insights, progress logs, and certifications I have earned to reinforce and track my development in foundational and advanced cybersecurity concepts.
-
----
-
-## 📌 Completed Learning Paths
-
-### 🚩 [Pre Security Path](https://tryhackme.com/path/outline/presecurity)
-This foundational path is designed for beginners to grasp essential cybersecurity principles, network fundamentals, web technologies, and operating systems (Linux and Windows).
-
-#### 🔖 Modules Covered in Detail:
-
-- **Introduction to Cyber Security**
-  - Understanding offensive and defensive cybersecurity roles
-  - Overview of potential career paths and key industry concepts
-
-- **Network Fundamentals**
-  - Mastery of IP addressing, subnetting, and networking basics
-  - Familiarization with ports, protocols, and common vulnerabilities
-
-- **How the Web Works**
-  - Detailed exploration of DNS, HTTP, web servers, and browser interactions
-
-- **Linux Fundamentals**
-  - Proficient navigation of Linux command-line interface
-  - Management of file systems, permissions, and user privileges
-
-- **Windows Fundamentals**
-  - Comprehensive understanding of Windows OS security mechanisms
-  - Exploration of common vulnerabilities and defensive strategies
-
-🎓 **Certificate Earned:**  
-![Pre Security Certificate](https://github.com/user-attachments/assets/fedf1cd2-16f0-4b35-b6f0-1f28ad01305c)
+A comprehensive documentation of my cybersecurity education through TryHackMe's structured learning paths. This repository serves as both a personal knowledge base and a resource for others beginning their cybersecurity journey.
 
 ---
 
-### 🚩 [Cyber Security 101 Path](https://tryhackme.com/path/outline/cybersecurity101)
-An extensive introductory course covering broad cybersecurity topics such as networking, cryptography, offensive and defensive security techniques, tooling, and career guidance.
+## 🎯 Overview
 
-#### 🔖 Modules Covered in Detail:
+This repository chronicles my progression through TryHackMe's cybersecurity curriculum, featuring detailed notes, practical insights, and earned certifications. Each completed path represents hands-on experience with industry-standard tools and methodologies.
 
-- **Start Your Cyber Security Journey**
-  - Fundamental concepts in offensive and defensive cybersecurity
-
-- **Linux Fundamentals**
-  - Advanced command-line usage and Linux system management
-
-- **Windows & Active Directory Fundamentals**
-  - Deep dive into Windows security and Active Directory infrastructure
-
-- **Command Line**
-  - Effective use of Bash, CMD, and PowerShell commands
-  - Automation for cybersecurity tasks
-
-- **Networking**
-  - In-depth study of OSI and TCP/IP models
-  - Practical usage of networking tools such as Wireshark
-
-- **Cryptography**
-  - Thorough understanding of encryption algorithms, symmetric/asymmetric cryptography, and hashing
-
-- **Exploitation Basics**
-  - Hands-on exploration of vulnerability identification and exploitation
-  - Introduction to the Metasploit framework
-
-- **Web Hacking**
-  - Mastery of web vulnerabilities (OWASP Top 10)
-  - Practical experience with SQL Injection, XSS, and Burp Suite
-
-- **Offensive Security Tooling**
-  - Practical usage of tools like Hydra, Gobuster, and SQLMap
-
-- **Defensive Security & Tooling**
-  - Incident response strategies and SIEM practices
-  - Advanced tooling with CyberChef, REMnux, and FlareVM
-
-- **Security Solutions**
-  - Detailed understanding of firewall technologies, IDS/IPS, and SIEM systems
-
-- **Build Your Cyber Security Career**
-  - Comprehensive guidance on cybersecurity careers, roles, required skills, and certifications
-
-🎓 **Certificate Earned:**  
-![Cyber Security 101 Certificate](https://github.com/user-attachments/assets/41433a19-7c4b-49a9-902c-a7dd44e1b8fc)
+**Total Learning Time:** 29+ hours of structured cybersecurity education  
+**Certificates Earned:** 3 pathway certifications  
+**Focus Areas:** Offensive Security, Defensive Security, Penetration Testing
 
 ---
 
-### 🚩 [Jr Penetration Tester Path](https://tryhackme.com/path/outline/jrpenetrationtester)  
-Learn the necessary skills to start a career as a penetration tester. This path covers pentesting methodologies and tactics, enumeration, exploitation, and hands-on practical hacking labs using industry tools.
+## 📚 Completed Learning Paths
 
-#### 🔖 Skills Gained:
+### 🟢 Pre Security Path
+**Status:** ✅ Complete | **Duration:** Foundation Level
 
-- Red Teaming & Penetration Testing
-- Linux System Exploitation
-- Enumeration and Vulnerability Scanning
-- Report Writing and Realistic Simulation Labs
-- Security Tools: Nmap, Metasploit, Hydra, Burp Suite, etc.
+Essential cybersecurity fundamentals for beginners, covering core concepts across multiple domains.
 
-🎓 **Certificate Earned:**  
-![Jr Penetration Tester Certificate](https://github.com/user-attachments/assets/9286bac4-e30a-4dbb-ae6d-d28418a8ef50)  
-🗓️ **Completed on:** May 26th, 2025  
-🕐 **Time to complete:** 29 hours 40 minutes  
+**Key Learning Outcomes:**
+- **Cybersecurity Foundations:** Understanding of offensive vs. defensive security roles and career pathways
+- **Network Mastery:** IP addressing, subnetting, ports, protocols, and vulnerability identification
+- **Web Technologies:** DNS resolution, HTTP protocols, server architecture, and browser security
+- **Linux Proficiency:** Command-line navigation, file system management, and permission structures
+- **Windows Security:** OS security mechanisms, common vulnerabilities, defensive strategies
 
----
-
-## 🔮 Next Steps
-
-To further expand my cybersecurity expertise, my future objectives include:
-
-- Completing the **Cyber Security Foundations** path
-- Engaging intensively in practical labs and exercises, particularly in Linux and web security
-- Actively participating in beginner-friendly Capture The Flag (CTF) events
-- Regularly publishing detailed notes and reflective write-ups to document my learning comprehensively
+🏆 **Certificate:** [View Credential](https://github.com/user-attachments/assets/fedf1cd2-16f0-4b35-b6f0-1f28ad01305c)
 
 ---
 
-## 📝 Purpose of This Repository
+### 🟡 Cyber Security 101 Path
+**Status:** ✅ Complete | **Duration:** Intermediate Level
 
-This repository serves as an extensive personal cybersecurity journal. My aim is to document every learning experience comprehensively, clearly track my progress, and build a useful reference for myself and others interested in cybersecurity.
+Comprehensive introduction to cybersecurity spanning multiple disciplines and practical applications.
+
+**Core Competencies Developed:**
+
+**Technical Foundations:**
+- Advanced Linux system administration and automation
+- Windows Active Directory security architecture
+- Cross-platform command-line proficiency (Bash, CMD, PowerShell)
+
+**Networking & Security:**
+- OSI and TCP/IP model implementation
+- Network analysis with Wireshark
+- Cryptographic principles and practical application
+
+**Offensive Security:**
+- Vulnerability assessment and exploitation techniques
+- Metasploit framework utilization
+- Web application security testing (OWASP Top 10)
+- Tool proficiency: Hydra, Gobuster, SQLMap, Burp Suite
+
+**Defensive Security:**
+- Incident response methodologies
+- SIEM implementation and analysis
+- Security tool mastery: CyberChef, REMnux, FlareVM
+- Firewall and IDS/IPS configuration
+
+🏆 **Certificate:** [View Credential](https://github.com/user-attachments/assets/41433a19-7c4b-49a9-902c-a7dd44e1b8fc)
 
 ---
 
-## 📬 Connect with Me
-- **TryHackMe Profile**: [hackkim](https://tryhackme.com/p/kimsunghoon)
+### 🔴 Jr Penetration Tester Path
+**Status:** ✅ Complete | **Completion Date:** May 26, 2025 | **Duration:** 29h 40m
+
+Professional-level penetration testing curriculum focusing on real-world methodologies and practical application.
+
+**Professional Skills Acquired:**
+- **Penetration Testing Methodology:** Systematic approach to security assessment
+- **Advanced Enumeration:** Information gathering and reconnaissance techniques
+- **Exploitation Techniques:** Practical vulnerability exploitation across multiple platforms
+- **Linux System Security:** Advanced system-level security testing
+- **Professional Reporting:** Industry-standard penetration testing documentation
+- **Tool Expertise:** Nmap, Metasploit, Hydra, Burp Suite, and specialized security tools
+
+**Practical Experience:** Multiple hands-on simulation environments and realistic penetration testing scenarios
+
+🏆 **Certificate:** [View Credential](https://github.com/user-attachments/assets/9286bac4-e30a-4dbb-ae6d-d28418a8ef50)
 
 ---
 
-🌟 **Happy Hacking & Learning!** 🌟
+## 🗺️ Learning Roadmap
+
+### Current Objectives
+- [ ] **Cyber Security Foundations Path** - Advanced theoretical and practical foundations
+- [ ] **Web Application Security** - Specialized focus on web vulnerability assessment
+- [ ] **Red Team Fundamentals** - Advanced offensive security techniques
+
+### Continuous Learning Goals
+- **Practical Application:** Regular participation in CTF competitions and security challenges
+- **Knowledge Sharing:** Publishing detailed technical write-ups and vulnerability analyses
+- **Community Engagement:** Contributing to cybersecurity discussions and peer learning
+- **Certification Preparation:** Industry certifications (CEH, OSCP, Security+)
 
 ---
+
+## 🛠️ Technical Proficiencies
+
+**Operating Systems:** Linux (Advanced), Windows (Intermediate)  
+**Programming/Scripting:** Bash, PowerShell, Python (Security applications)  
+**Security Tools:** Nmap, Metasploit, Burp Suite, Wireshark, Hydra, SQLMap  
+**Methodologies:** OWASP Testing Guide, NIST Cybersecurity Framework, OSSTMM  
+**Specializations:** Web Application Security, Network Penetration Testing, Vulnerability Assessment
+
+---
+
+## 📈 Learning Statistics
+
+- **Total Hands-on Labs:** 50+ practical exercises
+- **Security Tools Mastered:** 15+ industry-standard tools
+- **Vulnerabilities Explored:** OWASP Top 10, Network vulnerabilities, System exploits
+- **Documentation Created:** Comprehensive notes and methodological guides
+
+---
+
+## 🔗 Professional Profile
+
+**TryHackMe:** [hackkim](https://tryhackme.com/p/kimsunghoon)  
+**Learning Philosophy:** Practical application combined with theoretical understanding  
+**Specialization Focus:** Penetration Testing and Offensive Security
+
+---
+
+## 🤝 Contributing & Collaboration
+
+This repository represents ongoing cybersecurity education. Feedback, suggestions, and collaborative learning opportunities are welcome from fellow cybersecurity professionals and learners.
+
+---
+
+**🔐 Committed to ethical hacking and responsible security research**
+
+*Last Updated: May 26, 2025*
